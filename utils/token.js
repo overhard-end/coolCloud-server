@@ -1,6 +1,4 @@
 const jwt = require('jsonwebtoken');
-const accessKey = process.env.JWT_ACCESS_TOKEN_KEY;
-const refreshKey = process.env.JWT_RESRESH_TOKEN_KEY;
 class Token {
   checkToken(token, tokenSecret, options) {
     try {

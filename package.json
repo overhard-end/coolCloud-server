@@ -6,19 +6,15 @@
     "start": "nodemon server.js "
   },
   "dependencies": {
-    "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
     "busboy": "^1.6.0",
-    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "directory-tree": "^3.3.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.1",
     "express-validator": "^6.14.2",
     "jsonwebtoken": "^9.0.0",
-    "md5": "^2.3.0",
-    "mime": "^3.0.0",
-    "multiparty": "^4.2.3"
+    "mime": "^3.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

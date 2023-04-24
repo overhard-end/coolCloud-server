@@ -1,5 +1,5 @@
 const Token = require('../utils/token');
-const accessKey = process.env.USERFRONT_JWT_PUBLIC_KEY;
+const accessKey = process.env.AUTH_JWT_PUBLIC_KEY;
 
 function accessTokenCheck(req, res, next) {
   try {
