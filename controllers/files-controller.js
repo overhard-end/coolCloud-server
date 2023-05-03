@@ -5,7 +5,6 @@ const filesService = require('../services/files-service');
 const UPLOAD_DIR = path.join(__dirname, '../uploads/root');
 const TMP_DIR = path.join(__dirname, '../tmp');
 const mime = require('mime');
-const contentDisposition = require('content-disposition');
 
 const getUserPath = (req) => {
   const userId = req.session.userUuid;
