@@ -7,7 +7,7 @@ module.exports = (shipit) => {
   shipit.initConfig({
     default: {
       deployTo: '/root/server',
-      repositoryUrl: 'https://git-provider.tld/overhard-end/coolCloud-server.git',
+      repositoryUrl: 'https://github.com/overhard-end/coolCloud-server',
       keepReleases: 5,
       shared: {
         overwrite: true,
